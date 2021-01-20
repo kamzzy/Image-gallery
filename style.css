@@ -1,0 +1,72 @@
+.container{
+    margin: 5%;
+    
+   
+  }
+  h1 {
+      text-align: center;
+      color: rgb(115, 10, 124);
+   
+  }
+  .container .gallery a img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    -webkit-transition: -webkit-transform .15s ease;
+    -moz-transition: -moz-transform .15s ease;
+    -o-transition: -o-transform .15s ease;
+    -ms-transition: -ms-transform .15s ease;
+    transition: transform .15s ease;
+    position: relative;
+  }
+  
+  .container .gallery a:hover img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 5;
+ 
+  }
+  
+  .clear {
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+  .main {
+    max-width: 100%;
+    width: 70%;
+    margin: 10%;
+    position: relative;
+    border: 5px solid #05132d;
+    border-top-left-radius: 4.25rem;
+    border-bottom-right-radius: 4.25rem;
+    padding: 32px 32px 40px;
+    background: linear-gradient(226.75deg, rgba(104, 43, 91, 0.199183) 20.2%, rgba(104, 43, 91, 0.199183) 22.01%, rgba(43, 104, 101, 0.199183) 28.87%, rgba(122, 9, 90, 0.199183) 44.04%, rgba(15, 73, 184, 0.199183) 58.48%, rgba(174, 28, 133, 0.199183) 73.22%, rgba(143, 18, 108, 0) 96.42%, rgba(202, 136, 184, 0.24) 99.6%);
+    text-align: center;
+
+}
+
+.main1 {
+    max-width: 100%;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    border: 20px solid #92802E;
+    border-top-left-radius: 4.25rem;
+    border-bottom-right-radius: 4.25rem;
+    padding: 32px 32px 40px;
+}
+.container2 a img{
+    margin: 15%;
+}
+.form a img{
+    margin-top: 10%;
+}
+.form{
+    margin-top: 5%;
+}
